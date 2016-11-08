@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; font-family:Tahoma, Geneva, sans-serif; }
 html {width: 100%; height: 100%;}
-body {width: 100%; height: 100%; background-image: url("img/bg.jpg");/*будет изменен позже*/
+body {width: 100%; height: 100%; background-image: url("img/bg.jpg");/*будет заменен позже*/
     overflow-x: hidden;}
 #page {width: 1000px; margin: 0 auto;}
 section {width: 1000px; margin: 0 auto;}
