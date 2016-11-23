@@ -31,6 +31,14 @@ h2 a {text-decoration:none; font-weight:bold; color: #6666cc; font-size: 27px;}
 #left .button {width: 180px; border-radius: 0;}
 #left p {font-size: 12px; color: #6666cc;}
 #left a {color: #666;}
+::-webkit-input-placeholder {color:#666;font-size: 14px;}
+::-moz-placeholder          {color:#666;font-size: 14px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#666;font-size: 14px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#666;font-size: 14px;}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
 
 #right {width: 540px; margin:50px 0 50px 40px; float: left; border: solid 1px #6666cc; padding: 20px 0;}
 #right p {font-size: 14px; text-indent: 30px; color: #666; margin: 0 20px;}
